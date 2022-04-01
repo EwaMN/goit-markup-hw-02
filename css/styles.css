@@ -2,10 +2,16 @@
     --main-font: font-family: 'Roboto', sans-serif;
     --secondary-font: font-family: 'Raleway', sans-serif;
     --main-color:#212121;
+    --secondary-color:#2196F3;
+    --third-color:#FFFFFF;
+    --fourth-color:#757575;
+    --fifth-color: #2F303A;
+    --sixth-color:rgba(255, 255, 255, 0.6);
+    --seventh-color:#F5F4FA;
 }
 body {
     font-family: var(--main-font);
-    color:var(--main-color)
+    color:var(--main-color);
 }
 /* ==== HEADER ==== */
 /* =====WEBSTUDIO===== */
@@ -15,12 +21,12 @@ body {
     font-size: 26px;
     line-height: 2.583;
     letter-spacing: 0.03em;
-    color: #212121;
+    color:var(--main-color)
 }
 .navigation-logo:hover,
 .navigation-logo:focus,
 .navigation-logo:active {
-    color: #2196F3; 
+    color:var(--secondary-color);
 }
 .navigation-list-link {
 
@@ -28,12 +34,12 @@ body {
     font-size: 14px;
     line-height: 1.333;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--main-color);
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .navigation-list-link:active {
-    color:#2196F3;
+    color:var(--secondary-color);
 }
 
 .mailto {
@@ -45,25 +51,25 @@ body {
 .mailto:hover,
 .mailto:focus,
 .mailto:active {
-    color:#2196F3;
+    color:var(--secondary-color);
 }
 .telephone {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.333;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--main-color);
 }
 .telephone:hover,
 .telephone:focus,
 .telephone:active {
-    color: #757575;
+    color: var(--fourth-color);
 }
 /* ==== END OF HEADER ==== */
 
 /* ==== MAIN ==== */
 .main-title {
-    background: #2F303A;
+    background: var(--fifth-color);
 }
 .title {
     font-weight: 900;
@@ -72,7 +78,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--third-color);
 }
 .modal-button {
     font-weight: 700;
@@ -82,12 +88,12 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    background: #2196F3;
+    background: var(--secondary-color);
 }
 .modal-button:focus,
 .modal-button:hover,
 .modal-button:active {
-    color: #FFFFFF;
+    color: var(--third-color);
 }
 
 .paragraph-title {
@@ -96,13 +102,12 @@ body {
     line-height: 1.333;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
 }
 .paragraph-content {
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--fourth-color);
 }
 /* ==== about us ====*/
 .div-title {
@@ -126,40 +131,40 @@ body {
     line-height: 1.583;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--fourth-color);
 }
 /* ==== end workers ==== */
 /* ==== end MAIN ==== */
 /* ==== FOOTER ==== */
 .footer {
-    background: #2F303A;
+    background: var(--fifth-color);
 }
 .address {
     font-style: normal;
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--third-color);
 }
 .footer-mail {
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color:var(--sixth-color);
 }
 .footer-mail:hover,
 .footer-mail:focus {
-    color: #2196F3;
+    color: var(--secondary-color);
 }
 .footer-phone {
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--sixth-color)
 }
 .footer-phone:hover,
 .footer-phone:focus {
-    color: #2196F3;
+    color: var(--secondary-color);
 }
 
 .figcaption-main {
@@ -172,7 +177,7 @@ body {
     font-size: 16px;
     line-height: 2.5;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--fourth-color);
 }
 /* ==== end FOOTER ==== */
 /* === buttons ==== */
@@ -182,11 +187,11 @@ body {
     line-height: 2.166;
     text-align: center;
     letter-spacing: 0.03em;
-    background-color: #F5F4FA;
+    background-color: var(--seventh-color);
 }
 .menu-button:hover,
 .menu-button:focus,
 .menu-button:active {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--secondary-color);
+    color: var(--third-color);
 }
