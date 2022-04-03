@@ -1,6 +1,6 @@
 :root {
-    --main-font: font-family: 'Roboto', sans-serif;
-    --secondary-font: font-family: 'Raleway', sans-serif;
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
     --main-color:#212121;
     --secondary-color:#2196F3;
     --third-color:#FFFFFF;
@@ -13,10 +13,13 @@ body {
     font-family: var(--main-font);
     color:var(--main-color);
 }
+span{
+    color: var(--secondary-color);
+}
 /* ==== HEADER ==== */
 /* =====WEBSTUDIO===== */
 .navigation-logo {
-    font-family: 'Raleway';
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 2.583;
@@ -138,6 +141,9 @@ body {
 /* ==== FOOTER ==== */
 .footer {
     background: var(--fifth-color);
+}
+.footer .navigation-logo {
+    color: var(--third-color);
 }
 .address {
     font-style: normal;
